@@ -1,0 +1,129 @@
+/* Auther: ali mohammadi
+*/
+
+*{
+      margin: 0px;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.wrapper{
+     
+      padding: 1px;
+      width: 80%;
+      margin: 0px auto;
+
+}
+.text_center{
+      text-align: center;
+}
+.full_tbl{
+      width: 100%;
+}
+/* css for menu */
+.menu{
+      text-align: center;
+     
+}
+.menu .wrapper ul{
+   list-style: none;
+}
+.menu ul li {
+      display: inline;
+      padding: 5px;
+      text-align: center;
+}
+.menu ul li a{
+  text-decoration: none;
+  font-weight: bold;
+  color: #ff6b81;
+}
+.menu ul li a:hover{
+      color: #ff4757;
+}
+/* css for main  */
+.wrapper h1 {
+      padding: 4px;
+}
+.error{
+      color: #eb4d4b ;
+}
+.success{
+      color:#6ab04c ;
+}
+.btn-primary{
+      background-color: #54a0ff;
+      color: white;
+      padding: 3px;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 10px;
+}
+.btn-primary:hover{
+    background-color: #2e86de ;
+}
+
+.btn-secondary{
+      background-color: #1dd1a1;
+      color: black;
+      padding: 2px;
+      text-decoration: none;
+      font-weight: bold;
+     
+}
+.btn-secondary:hover{
+    background-color: #10ac84 ;
+}
+
+.btn-danjery{
+      background-color: #ff6b6b;
+      color: white;
+      padding: 2px;
+      text-decoration: none;
+      font-weight: bold;
+}
+.btn-danjery:hover{
+    background-color: #ee5253 ;
+}
+.clearfix{
+      float: none;
+      clear: both;
+}
+
+.main_contact{
+      background-color: #f1f2f6 ;
+      padding: 2%;
+}
+.main_contact .col-4{
+      background-color: white;
+      width: 18%;
+      margin: 2px ;
+      padding: 2px;
+      float: left;
+
+}
+table tr th {
+      border-bottom: 1px solid black;
+      padding: 3px;
+      text-align: left;
+     
+}
+table tr td{
+      padding: 2px;
+}
+/* login page */
+.login{
+      width: 25%;
+      border: 1px solid blue;
+      height: 50%;
+      margin: 40px auto;
+      background-color:  #f1f2f6 ;
+
+}
+
+/* css for footer */
+.footer{
+      background-color: #ff4757;
+      color: white;
+}
